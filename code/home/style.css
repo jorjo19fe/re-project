@@ -1,5 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/1e6ec96c95301fa73aa1d026f161a269?family=MarzoW00-Regular);
 @import url(//db.onlinewebfonts.com/c/9d097da6a9a781eb3dbfd8fe6cab0066?family=DINNextW01-CondensedRegular);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
 body{
     padding: 0px;
     margin: 0px;
@@ -29,7 +30,7 @@ body .main-main .main-section header nav .container-fluid {
     margin-top: 10px;
     /* grid-column-gap: 10px; */
 }
-body .main-main .main-section header nav .container-fluid .navbar-br-logo{
+/* body .main-main .main-section header nav .container-fluid .navbar-br-logo{
     width: 120px;
     height: 120px;
     border: #E5A148 solid 1px;
@@ -38,7 +39,7 @@ body .main-main .main-section header nav .container-fluid .navbar-br-logo{
     justify-content: center;
     align-items: center;
 
-}
+} */
 body .main-main .main-section header nav .container-fluid .navbar-br-logo .navbar-brand{
     width: 113px;
     height: 70px;
@@ -72,7 +73,7 @@ body .main-main .main-section header nav .container-fluid .navbar-collapse ul li
 body .main-main .main-section header nav .container-fluid .navbar-collapse ul li a{
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     font-family: DINNextW01-CondensedRegular;
     color: black;
 
@@ -143,17 +144,95 @@ body .main-main .main-section header nav .container-fluid .navbar-shopping .navb
     background-position: center;
 }
 
-body .main-main .main-section main{
-    display: grid;
-    place-items: center;
-    width: 1000px;
-    height: 1000px;
+
+body .main-main .main-section main {
+    position: relative;
+    left: 0;
+    top: 10em;
 }
-body .main-main .main-section main .main-class-of-main{
+body .main-main .main-section main .back {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 200px 200px;
+    width: 530px;
+    margin-left: 200px;
+}
+body .main-main .main-section main .back .img-2 {
+    height: 380px;
+    position: relative;
+    top: 350px;
+    right: 160px;
+    user-select: none;
+}
+body .main-main .main-section main .back .img-1 {
+    user-select: none;
+}
+body .main-main .main-section main .front {
+    display: inline-flex;
+    position: relative;
+    bottom: 250px;
+    left: 250px;
+}
+body .main-main .main-section main .front-logo {
+    margin-left: -20px;
 }
 
+body .main-main .main-section main .front-logo div a {
+    text-decoration: none;
+    color: black;
+    font-family: MarzoW00-Regular;
+    font-size: 30px;
+    font-weight: 300;
+}
+body .main-main .main-section main .front-logo div {
+    background-color: #D8BE6B;
+    padding: 24px;
+    /* padding-top: 10px; */
+    margin-top: -30px;
+    border-radius: 50%;
+    height: 70px;
+}
+body .main-main .main-section main .front-text h1 {
+    font-size: 38px;
+    color: rgb(69, 116, 15);
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: -3px;
+    font-weight: 450;
+}
+body .main-main .main-section main .front-text {
+    margin-left: 50px;
+    margin-top: -280px;
+}
+
+body .main-main .main-section main .front-text a {
+    background-color: rgb(69, 116, 15);
+    color: white;
+    font-family: DINNextW01-CondensedRegular;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 115px;
+    height: 40px;
+}
+body .main-main .main-section main .front-text a:hover {
+    background-color: rgb(70, 70, 70);
+    transition: all 0.2s ease-in;
+}
+body .main-main .main-section footer {
+    display: inline-flex;
+    position: relative;
+    top: 255px;
+    height: 30px;
+}
+body .main-main .main-section footer small {
+    font-weight: 100;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(131, 131, 131);
+    padding-left: 200px;
+}
+body .main-main .main-section footer div {
+    padding-left: 470px;
+}
 
 
 

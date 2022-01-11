@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- <link rel="stylesheet" href="/code/shop/responsive.css"> -->
-    <link rel="stylesheet" href="/code/shop/style.css">
+    <link rel="stylesheet" href="/code/shop/responsive.css">
 </head>
 <body>
 <main class="main-main">
@@ -16,15 +16,15 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <section class="navbar-br-logo">
-                        <a id="navbar-brand" class="navbar-brand" href="/code/home/index.html">Pure Juice</a>
+                        <a id="navbar-brand" class="navbar-brand" href="/re-project/code/home/index.html">Pure Juice</a>
                     </section>
                     <section class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="/code/home/index.html">Home</a>
+                                <a class="nav-link" href="/re-project/code/home/index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="/code/shop/index.html">Shop</a>
+                                <a class="nav-link active" href="/re-project/code/shop/index.html">Shop</a>
                             </li>   
                         </ul>
                     </section>
@@ -41,62 +41,82 @@
             </nav>
         </header>
         <main>
-            <section class="top">
-                <h1>shop</h1>
-            </section>
-            <section class="grid-cen">
-                <aside>
-                    <button class="image">
-
-                    </button>
-                    <button class="button-ton">
-                        
-                    </button>
-                </aside>
-                <aside>
-                    <button class="image">
-
-                    </button>
-                    <button class="button-ton">
-                        
-                    </button>
-                </aside>
-                <aside>
-                    <button class="image">
-
-                    </button>
-                    <button class="button-ton">
-                        
-                    </button>
-                </aside>
-                <aside>
-                    <button class="image">
-
-                    </button>
-                    <button class="button-ton">
-                        
-                    </button>
-                </aside>
-                <aside>
-                    <button class="image">
-
-                    </button>
-                    <button class="button-ton">
-                        
-                    </button>
-                </aside>
-                <aside>
-                    <button class="image">
-
-                    </button>
-                    <button class="button-ton">
-                        
-                    </button>
-                </aside>
+            <section class="shop-container">
+                 <h1 style="font-family: 'Exo 2', sans-serif; font-weight: 200; font-size: 40px; color: darkgreen;">SHOP</h1>
+                <section class="container">
+                    <div class="juice juice-1-1">
+                        <a href="shopOption.html">
+                            <img src="https://static.wixstatic.com/media/18c26a_3d5890377473413f9389524d8805dbaa.jpg/v1/fill/w_230,h_230,al_c,q_80,usm_0.66_1.00_0.01/18c26a_3d5890377473413f9389524d8805dbaa.webp">
+                            <figcaption>I'am a product</figcaption>
+                            <p>$5.99</p>
+                        </a>
+                        <input type="number" class="num num-1"><br>
+                        <button class="button-cart one">Add to Cart</button>
+                    </div>
+                    <div class="juice juice-1-2">
+                        <a href="shopOption.html">
+                            <img src="https://static.wixstatic.com/media/18c26a_8506fe4252854b6ab5f57e9596af5d84.jpg/v1/fill/w_230,h_230,al_c,q_80,usm_0.66_1.00_0.01/18c26a_8506fe4252854b6ab5f57e9596af5d84.webp">
+                            <figcaption>I'am a product</figcaption>
+                            <p>$19.99</p>
+                        </a>
+                        <input type="number" class="num num-2"><br>
+                        <button class="button-cart two">Add to Cart</button>
+                    </div>
+                    <div class="juice juice-1-3">
+                        <a href="shopOption.html">
+                            <img src="https://static.wixstatic.com/media/18c26a_3d5890377473413f9389524d8805dbaa.jpg/v1/fill/w_230,h_230,al_c,q_80,usm_0.66_1.00_0.01/18c26a_3d5890377473413f9389524d8805dbaa.webp">
+                            <span class="sales">Sale</span>
+                            <figcaption>I'am a product</figcaption>
+                            <p><span style="text-decoration: line-through;">$19.99</span> $14.99</p>
+                        </a>
+                            <input type="number" class="num num-3"><br>
+                            <button class="button-cart three" id="num-3">Add to Cart</button>
+                    </div>
+                    <div class="juice juice-2-1">
+                        <a href="shopOption.html">
+                            <img src="https://static.wixstatic.com/media/18c26a_6c6264e8a9ed4713a8bd55deec1d16d2.jpg/v1/fill/w_230,h_230,al_c,q_80,usm_0.66_1.00_0.01/18c26a_6c6264e8a9ed4713a8bd55deec1d16d2.webp">
+                            <figcaption>I'am a product</figcaption>
+                            <p>$19.99</p>
+                        </a>
+                        <input type="number" class="num num-1"><br>
+                        <button class="button-cart one">Add to Cart</button>
+                    </div>
+                    <div class="juice juice-2-2">
+                        <a href="shopOption.html">
+                            <img src="https://static.wixstatic.com/media/18c26a_753f3514361f4467b959e8913d1899fe.jpg/v1/fill/w_230,h_230,al_c,q_80,usm_0.66_1.00_0.01/18c26a_753f3514361f4467b959e8913d1899fe.webp">
+                            <span class="sales">New</span>
+                            <figcaption>I'am a product</figcaption>
+                            <p>$19.99</p>
+                        </a>
+                        <input type="number" class="num num-2"><br>
+                        <button class="button-cart two">Add to Cart</button>
+                    </div>
+                    <div class="juice juice-2-3">
+                        <a href="shopOption.html">
+                            <img src="https://static.wixstatic.com/media/18c26a_3845b1e870424319b8679ba17d7b7e73.jpg/v1/fill/w_230,h_230,al_c,q_80,usm_0.66_1.00_0.01/18c26a_3845b1e870424319b8679ba17d7b7e73.webp">
+                            <figcaption>I'am a product</figcaption>
+                            <p>$19.99</p>
+                        </a>
+                            <input type="number" class="num num-3"><br>
+                            <button class="button-cart three" id="num-3">Add to Cart</button>
+                    </div>
+                </section>
             </section>
         </main>
+        <footer>
+            <small>© 2023 by Pure Juice. Proudly created with <a href="http://wix.com/?utm_campaign=vir_created_with" style="color: rgb(201, 201, 201);">Wix.com</a></small>
+            <div>
+                <a href="https://static.wixstatic.com/media/ce6ec7c11b174c0581e20f42bb865ce3.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/ce6ec7c11b174c0581e20f42bb865ce3.webp"><img src="https://static.wixstatic.com/media/ce6ec7c11b174c0581e20f42bb865ce3.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/ce6ec7c11b174c0581e20f42bb865ce3.webp"></a>
+                <a href="https://static.wixstatic.com/media/444f49eac2e348f89128293b0c6432fd.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/444f49eac2e348f89128293b0c6432fd.webp"><img src="https://static.wixstatic.com/media/444f49eac2e348f89128293b0c6432fd.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/444f49eac2e348f89128293b0c6432fd.webp"></a>
+                <a href="https://static.wixstatic.com/media/fdcfaba150fc427da298a00cb09d91c1.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/fdcfaba150fc427da298a00cb09d91c1.webp"><img src="https://static.wixstatic.com/media/fdcfaba150fc427da298a00cb09d91c1.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01/fdcfaba150fc427da298a00cb09d91c1.webp"></a>
+            </div>
+        </footer>
     </section>
-    <section></section>
+    <section>
+        <div class="nsup">
+            <h1>Not Supported</h1>
+        </div>
+    </section>
 </main>
 </body>
 </html>

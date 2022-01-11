@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/1e6ec96c95301fa73aa1d026f161a269?family=MarzoW00-Regular);
+/* @import url(//db.onlinewebfonts.com/c/1e6ec96c95301fa73aa1d026f161a269?family=MarzoW00-Regular);
 @import url(//db.onlinewebfonts.com/c/9d097da6a9a781eb3dbfd8fe6cab0066?family=DINNextW01-CondensedRegular);
 body{
     padding: 0px;
@@ -28,8 +28,7 @@ body .main-main .main-section header nav .container-fluid {
     height: 90px;
     margin-top: 10px;
     /* grid-column-gap: 10px; */
-}
-body .main-main .main-section header nav .container-fluid .navbar-br-logo{
+/* body .main-main .main-section header nav .container-fluid .navbar-br-logo{
     width: 120px;
     height: 120px;
     border: #E5A148 solid 1px;
@@ -72,22 +71,21 @@ body .main-main .main-section header nav .container-fluid .navbar-collapse ul li
 body .main-main .main-section header nav .container-fluid .navbar-collapse ul li a{
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     font-family: DINNextW01-CondensedRegular;
     color: black;
 
 }
 body .main-main .main-section header nav .container-fluid .navbar-collapse ul li a:hover{
     color: #657E01;
-}
+} */
+/* 
 body .main-main .main-section header nav .container-fluid .navbar-collapse ul li .active{
     color: #657E01;
 }
 body .main-main .main-section header nav .container-fluid .navbar-collapse ul li .border{
     border-left: black solid 1px;
-    /* border-right: black solid 1px; */
-    padding: 25px;
-}
+    /* border-right: black solid 1px;
 body .main-main .main-section header nav .container-fluid .navbar-shopping{
     display: inline-flex;
     justify-content: space-around;
@@ -147,18 +145,93 @@ body .main-main .main-section header nav .container-fluid .navbar-shopping .navb
     padding: 2px;
     background-repeat: no-repeat;
     background-position: center;
-} */
-
-body .main-main .main-section main{
-    display: flex;
-    align-items: center;
-    height: 1000px;
 }
 
-body .main-main .main-section main .grid-cen{
+body .main-main .main-section main {
+    position: relative;
+    left: 0;
+    top: 10em;
+    width: 100%;
+}
+body .main-main .main-section main .shop-container {
+    width: 50vw;
+}
+body .main-main .main-section main .shop-container .container .juice {
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+body .main-main .main-section main .shop-container .container .juice a {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    margin-left: 50px;
+}
+body .main-main .main-section main .shop-container .container{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 }
+
+body .main-main .main-section main .shop-container .container .juice .num {
+    text-align: center;
+    height: 35px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 0;
+    border: 1px solid black;
+    font-size: 10pt;
+    color: rgb(75, 75, 75);
+}
+body .main-main .main-section main .shop-container .container .juice .num:focus {
+    outline: none;
+}
+body .main-main .main-section main .shop-container .container .juice .num-3 {
+    margin-left: -15px;
+}
+body .main-main .main-section main .shop-container .container .juice #num-3 {
+    margin-left: -14px;
+    margin-top: 20px;
+}
+body .main-main .main-section main .shop-container .container .juice .sales {
+    position: relative;
+    top: -210px;    
+    left: -230px;
+    background-color: rgb(69, 116, 15);
+    color: white;
+    width: 60px;
+    padding: 7px 14px;
+    font-size: 14px;
+}
+body .main-main .main-section main .shop-container .container .juice .button-cart {
+    background-color: rgb(69, 116, 15);
+    color: white;
+    padding: 15px 70px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+body .main-main .main-section main .shop-container .container .juice .button-cart:hover {
+    opacity: 0.65;
+    transition: all 0.3s ease-out;
+}
+body .main-main .main-section main footer {
+    display: inline-flex;
+    position: relative;
+    top: 330px;
+    padding-bottom: 20px;
+}
+body .main-main .main-section main footer small {
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    padding-left: 250px;
+}
+body .main-main .main-section main footer div {
+    padding-left: 470px;
+ */
